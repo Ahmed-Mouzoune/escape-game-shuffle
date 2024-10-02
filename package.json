@@ -1,0 +1,13 @@
+{
+  "name": "maten",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start:solution-1": "node solution-1.js",
+    "start:solution-2": "node solution-1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
