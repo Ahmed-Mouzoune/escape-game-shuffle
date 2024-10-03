@@ -2,121 +2,116 @@ const GAMEMASTERS = [
   {
     id: 1,
     name: "John",
-    rooms: [2, 3, 5],
+    trained_rooms: [2, 3, 5],
   },
-
   {
     id: 2,
     name: "Alice",
-    rooms: [4, 10],
+    trained_rooms: [4, 10],
   },
-
   {
     id: 3,
     name: "David",
-    rooms: [5],
+    trained_rooms: [5],
   },
-
   {
     id: 4,
     name: "Emily",
-    rooms: [8, 6, 2, 7],
+    trained_rooms: [8, 6, 2, 7],
   },
-
   {
     id: 5,
     name: "Michael",
-    rooms: [9, 1, 4, 3, 11, 8, 6, 12],
+    trained_rooms: [9, 1, 4, 3, 11, 8, 6, 12],
   },
-
   {
     id: 6,
     name: "Sophia",
-    rooms: [7, 10],
+    trained_rooms: [7, 10],
   },
 
   {
     id: 7,
     name: "Daniel",
-    rooms: [8],
+    trained_rooms: [8],
   },
 
   {
     id: 8,
     name: "Olivia",
-    rooms: [3, 9],
+    trained_rooms: [3, 9],
   },
 
   {
     id: 9,
     name: "Matthieu",
-    rooms: [2, 6, 1, 7, 3, 4],
+    trained_rooms: [2, 6, 1, 7, 3, 4],
   },
 
   {
     id: 10,
     name: "Emma",
-    rooms: [5, 4],
+    trained_rooms: [5, 4],
   },
 
   {
     id: 11,
     name: "James",
-    rooms: [11, 6],
+    trained_rooms: [11, 6],
   },
 
   {
     id: 12,
     name: "Isabella",
-    rooms: [7, 4, 12],
+    trained_rooms: [7, 4, 12],
   },
 
   {
     id: 13,
     name: "William",
-    rooms: [11, 12],
+    trained_rooms: [11, 12],
   },
 
   {
     id: 14,
     name: "Ava",
-    rooms: [9, 11, 10],
+    trained_rooms: [9, 11, 10],
   },
 
   {
     id: 15,
     name: "Benjamin",
-    rooms: [8, 4],
+    trained_rooms: [8, 4],
   },
 
   {
     id: 16,
     name: "Mia",
-    rooms: [1, 3, 7, 5, 8],
+    trained_rooms: [1, 3, 7, 5, 8],
   },
 
   {
     id: 17,
     name: "Ethan",
-    rooms: [4, 2],
+    trained_rooms: [4, 2],
   },
 
   {
     id: 18,
     name: "Charlotte",
-    rooms: [10],
+    trained_rooms: [10],
   },
 
   {
     id: 19,
     name: "Alexandre",
-    rooms: [9, 2, 8],
+    trained_rooms: [9, 2, 8],
   },
 
   {
     id: 20,
     name: "Harper",
-    rooms: [1, 12],
+    trained_rooms: [1, 12],
   },
 ];
 

@@ -18,9 +18,9 @@ const assignGamemasters = (rooms, gamemasters, assignments, roomIndex) => {
   for (let i = 0; i < gamemasters.length; i++) {
     const gm = gamemasters[i];
 
-    // Vérifier si le GM peut gérer la salle
+    // Vérifier si le GM est formé pour gérer la salle
     if (
-      gm.rooms.includes(room.id) &&
+      gm.trained_rooms.includes(room.id) &&
       !assignments.some((a) => a.gamemaster === gm.name)
     ) {
       // On attribue le GM à la salle

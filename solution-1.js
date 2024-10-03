@@ -14,7 +14,8 @@ const main = () => {
 
   // On essaye d'attribuer les GM à toutes les salles de manière aléatoires
   const assignments = ROOMS.map((room) => {
-    const gm = availableGMS.find((gm) => gm.rooms.includes(room.id));
+    // Vérifier si le GM est formé pour gérer la salle
+    const gm = availableGMS.find((gm) => gm.trained_rooms.includes(room.id));
 
     if (!gm) {
       console.log(
